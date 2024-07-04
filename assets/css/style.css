@@ -1332,20 +1332,18 @@ main .footer .credit {
     text-align: center;
   }
 }
-
 .social-icons {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 20px; /* Adjust the margin as needed */
 }
 
 .social-icons a {
     color: #fff; /* White color for icons */
-    margin: 0 10px; /* Spacing between icons */
-    font-size: 24px; /* Icon size */
+    margin: 0 15px; /* Spacing between icons, increase if needed */
+    font-size: 30px; /* Larger icon size */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
 }
 
 .social-icons a:hover {
-    color: #ddd; /* Lighter color on hover */
+    color: #ccc; /* Light grey color on hover */
 }
-
-/*# sourceMappingURL=style.css.map */
